@@ -31,7 +31,7 @@ type Audio struct {
 func (aud *Audio) Mostrar() {
 	fmt.Println("Titulo:", aud.Titulo)
 	fmt.Println("Formato:", aud.Formato)
-	fmt.Print("Duracion:", aud.Duracion, "\n\n")
+	fmt.Print("Duracion: ", aud.Duracion, "\n\n")
 }
 
 // Video ...
@@ -45,7 +45,7 @@ type Video struct {
 func (vid *Video) Mostrar() {
 	fmt.Println("Titulo:", vid.Titulo)
 	fmt.Println("Formato:", vid.Formato)
-	fmt.Print("Frames:", vid.Frames, "\n\n")
+	fmt.Print("Frames: ", vid.Frames, "\n\n")
 }
 
 // Multimedia ...
